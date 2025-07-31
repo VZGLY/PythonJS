@@ -1,0 +1,44 @@
+@font-face {
+    font-family: maFont;
+    src: url(./font/LEMONMILK-Medium.otf);
+}
+
+body{
+    margin: 0%;
+}
+
+*{
+    font-family: maFont, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#newProductTitle{
+    display: flex;
+    justify-content: center;
+}
+
+#forms{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#submit{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.listItem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.imgSize{
+    height: 100px;
+}
