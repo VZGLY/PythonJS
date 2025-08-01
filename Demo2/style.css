@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+}
+
+.flexClass{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    align-items: center;
+}
+
+.flexClass>p{
+    margin: 20px;
+}
+
+.superior{
+    background-color: greenyellow;
+}
+
+.inferior{
+    background-color: crimson;
+}
+
+.succeed{
+    background-color: aqua;
+}
